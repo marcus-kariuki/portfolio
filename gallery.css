@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    padding-bottom: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 6%;
+    padding-right: 7%;
+}
+nav a{
+    color: antiquewhite;
+    text-decoration: none;
+
+}
+nav ul .button-2{
+    background-color: #18A4F6;
+    margin-right: 150px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .3s;
+
+}
+nav ul .button-2:hover{
+    color: #18A4F6;
+    background-color: transparent;
+    border: 2px solid #18A4F6;
+    cursor: pointer;
+}
+.logo{
+    color: antiquewhite;
+    font-size: 25px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+span{
+    color: #18A4F6;
+
+}
+.gallery-section{
+    background-color: black;
+}
+h2{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+#img-1{
+    height: 360px;
+    padding: 15px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    padding: 100px 0px;
+    background-color: black;
+
+}
+footer p{
+    color: antiquewhite;
+    font-size: 10px;
+    letter-spacing: 2px;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    margin-left: 350px;
+
+}
+
+footer a{
+    color: antiquewhite;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer a:hover{
+    color: #18A4F6;
+    font-size: 21px;
+    transition: .1s;
+}
